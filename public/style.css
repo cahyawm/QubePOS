@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/font/Poppins-Regular.ttf);
+}
+.btn-qube{
+    background-color: #FE8767;
+    color: white;
+    padding: 8px 30px;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins' !important;
+}
+/* login dan register */
+.auth-txt{
+    font-weight: 600;
+}
+.auth{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 747px){
+    .auth-left, .landing-page{
+        content-visibility: hidden;
+    }
+}
+
+/* dev yaya */
+.navbar-qube {
+    height: 100px;
+}
+
+/* welcome page */
+.home {
+    margin-right: 140px;
+    margin-top: 60px;
+}
+
+.home .heading {
+    font-size: 40px;
+}
+
+.home-wrapper .heading span {
+    background-color: #FFD666;
+    margin-left:20px;
+}
+
+.home .subheading {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.btn-mulai{
+    margin-top: 20px;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+
+/* pos style */
+/* .card-img-top{
+    height: 140px !important;
+    width: 140px !important;
+} */
+#card-produk{
+    margin-top: 24px;
+}
+#content {
+    float: left;
+    /* margin: 0 0.3%; */
+    width: 65%;
+}
+aside {
+    float: right;
+    /* margin: 0 0.3%; */
+    width: 35%;
+    height: max-content;
+}
+
+.carousel, .slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+    border-radius: 12;
+    overflow: hidden;
+}
+
+.cart-btn{
+    border-radius: 100%;
+    padding: 18px;
+    background-color: #FE724C;
+}
+.cart-button{
+    position: relative;
+    float: right;
+    bottom: 30px;
+    right: 30px;
+}
